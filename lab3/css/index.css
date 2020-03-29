@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #f6f6f6;
+}
+
+header {
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
+    height: 70px;
+}
+
+nav #nav-left {
+    float: left;
+    margin-left: 150px;
+}
+
+nav #nav-right {
+    float: right;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 800;
+    color: #000000;
+    text-decoration:none;
+    margin: 0 5px;
+}
+
+nav a:hover{
+    color: #87bff2;
+}
+
+nav #nav-left #logo {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 13px;
+}
+
+nav #nav-left img {
+    height: 43px;
+    width: 70px;
+}
+
+aside {
+    float: right;
+    margin-right: 160px;
+    margin-top: 20px;
+    padding: 0;
+    width: 100px;
+    background-color: white;
+}
+
+aside ul {
+    padding: 0 0 0 10px;
+    list-style-type: none;
+}
+
+aside ul li {
+    padding: 10px 10px;
+    margin: 0;
+}
+
+aside ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: #000000;
+}
+
+aside ul li a:hover {
+    color: #87bff2;
+}
+
+main {
+    margin: 20px 0 20px 150px;
+    background-color: white;
+    padding: 5px 30px;
+    float: left;
+    width: 1030px
+}
+
+main h1 {
+    font-size: 25px;
+}
+
+main ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+main ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #bababa;
+}
+
+main ul li:last-of-type {
+    border-bottom: none;
+}
+
+main ul li blockquote {
+    margin: 0 0 10px 0;
+    padding: 5px;
+    width: 70px;
+    background-color: rgba(0, 224, 255, 0.16);
+    border: 1px solid rgba(0, 224, 255, 0.16);
+    border-radius: 3px;
+    color: rgb(2, 138, 255);
+}
+
+main #pageNumber {
+    text-align: center;
+}
+
+main #pageNumber .active {
+    color: rgb(2, 138, 255);
+}

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #f6f6f6;
+}
+
+header {
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
+    height: 70px;
+}
+
+nav {
+    float: left;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 800;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    color: #87bff2;
+}
+
+main {
+    padding: 10px 10px 10px 30px;
+    margin: 20px 150px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+input, textarea {
+    outline: none;
+    padding: 5px;
+    margin: 10px 0;
+    width: 80%;
+    background-color: #ffffff;
+    border: #56707f solid 1px;
+    border-radius: 5px;
+    color: #000000
+}
+
+select {
+    padding:  0 0 5px 0;
+    background-color: white;
+    border: #56707f solid 1px;
+    color: black;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 25px;
+}
+
+input[type="button"], input[type="submit"] {
+    background-color: white;
+    border: #171a21 solid 1px;
+    width: 50px;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: #e6e6e6;
+
+}
+
+input[type="button"]:active, input[type="submit"]:active {
+    background-color: #cbcbcb;
+}
+
+textarea {
+    height: 300px;
+}
+
+#captcha {
+    width: 60px;
+}
