@@ -1,0 +1,66 @@
+.navbar {
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    padding: 6px 6px;
+}
+
+.navbar-brand img {
+    width: auto;
+    height: 100%;
+}
+
+#gallery img {
+    border-radius: 2%;
+}
+
+#gallery .col-md-3 {
+    padding-top: 2%;
+    border-radius: 2%;
+    background-color: #bababa;
+}
+
+#gallery .thumbnail {
+    background-color: inherit;
+    border: 0;
+}
+
+#gallery {
+    margin: 0 0 1% 13%;
+}
+
+footer{
+    background-color: #333333;
+}
+
+.row{
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #676767;
+}
+
+footer .col-md-4 p {
+    font-size: 30px;
+    color: white;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
