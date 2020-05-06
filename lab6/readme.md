@@ -6,11 +6,11 @@ https://github.com/sillyboy51666/SOFT130002_lab/tree/master/lab6
 
 github网页截图:
 
-![github](/images/github.png)
+![github](images/github.png)
 
 本地命令行截图:
 
-![console](/images/onsole.png)
+![console](images/console.png)
 c
 ---------------------------
 ## 1. 各个正则表达式的解释
