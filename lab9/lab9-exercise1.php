@@ -12,10 +12,10 @@
 //1-8
 $date = date("M dS, Y");
 echo "This page was generated: " . $date . "<hr/>";
-//1-9 对应格式的日期
+//1-9
 echo date("l, F dS , Y G:i:s");
 echo "<br>";
-//1-11 修改后的
+//1-11
 if(date("L")==1){
     $remaining = 366 - date("z");
     echo "There are ". $remaining . " days left in the year";
